@@ -11,11 +11,12 @@ const navigationLinks = [
   { label: "Rewards", href: "#rewards" },
   { label: "How it Works", href: "#how-it-works" },
   { label: "Airdrop", href: "#airdrop" },
+  { label: "Jobs", href: "#contact" },
   { label: "Docs", href: "https://hubsai.gitbook.io/hubsai-docs/" },
 ];
 
 export default function Navbar() {
-  const sections = ["#video", "#rewards", "#how-it-works", "#airdrop"];
+  const sections = ["#video", "#rewards", "#how-it-works", "#airdrop", "#contact"];
   const activeSection = useActiveSection(sections);
 
   return (

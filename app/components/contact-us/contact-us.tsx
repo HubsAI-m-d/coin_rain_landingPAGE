@@ -56,10 +56,17 @@ export default function ContactUs() {
       <Animate type="fadeUp">
         <div className="relative flex w-full justify-center sm:absolute sm:bottom-5 sm:left-1/2 sm:-translate-x-1/2">
           <Tooltip>
+            <a
+  href="https://www.hubsai.net/"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="inline-block"
+>
             <Button>
               <p className="text-gradient">Partner With Us</p>
             </Button>
-          </Tooltip>
+            </a>
+          </Tooltip>          
         </div>
       </Animate>
     </div>
